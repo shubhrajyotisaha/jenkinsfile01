@@ -26,7 +26,7 @@ pipeline{
                sh 'mvn pmd:pmd'
            }
        }
-       stage('test_code')
+       stage('TEST_code')
        {
            steps
            {
